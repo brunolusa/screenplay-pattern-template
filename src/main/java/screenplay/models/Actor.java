@@ -17,10 +17,6 @@ public abstract class Actor {
         return this;
     }
 
-    public <T extends Actor> void wasAbleTo(Task<T> task) {
-        task.perform((T) this);
-    }
-
     public <T extends Actor> void attemptsTo(Task<T> task) {
         task.perform((T) this);
     }

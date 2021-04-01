@@ -2,7 +2,6 @@ package screenplay.questions;
 
 import screenplay.actors.ApiClient;
 import screenplay.models.Question;
-import java.util.Arrays;
 import static org.hamcrest.CoreMatchers.*;
 
 public class TheStreetName implements Question<ApiClient> {
