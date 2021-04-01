@@ -15,3 +15,5 @@ graph TD;
   Tasks-->|made up of| Actions;
   Actions-->|interact with| WebPageorAPI;
 ```
+
+![image](https://user-images.githubusercontent.com/51209488/113299723-8e6a0680-92d3-11eb-861c-3503cea0524d.png)
