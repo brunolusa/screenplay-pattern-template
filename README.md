@@ -3,6 +3,9 @@ Projeto de testes automatizados no padrão ScreenPlay (the Journey Pattern) para
 
 Em construção.
 
+Flow explicativo do Pattern ScreenPlay.
+
+```mermaid
 graph TD;
   Actor-->|Asks| Questions;
   Questions-->|abaout the state of| WebPageorAPI
@@ -11,4 +14,4 @@ graph TD;
   Abilities-->|enable| Actions
   Tasks-->|made up of| Actions
   Actions-->|interact with| WebPageorAPI;
-
+```
